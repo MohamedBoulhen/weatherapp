@@ -17,7 +17,7 @@ Here is a screenshot of the current state of the application:
 
 ## Current Status
 
-This project is in the early stages of development. Features are being added, and the application is undergoing active development. Check back for updates as new features and improvements are implemented.
+This project still under development. Features are being added, and the application is undergoing active development. Check back for updates as new features and improvements are implemented.
 
 
 ## Future Features
