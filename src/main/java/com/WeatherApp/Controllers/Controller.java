@@ -1,7 +1,7 @@
-package com.WeatherApp.Controllers;
+package com.anuragroy.Controllers;
 
-import com.WeatherApp.Models.ImageHandler;
-import com.WeatherApp.Models.WeatherManager;
+import com.anuragroy.Models.ImageHandler;
+import com.anuragroy.Models.WeatherManager;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.animation.FadeTransition;
@@ -123,7 +123,6 @@ public class Controller implements Initializable {
 
     // Method to display weather data and update the scene
     private void showWeather() {
-
         weatherManager.getWeather();
         city.setText(weatherManager.getCity().toUpperCase());
         temperature.setText(weatherManager.getTemperature() + "°C");
@@ -134,7 +133,6 @@ public class Controller implements Initializable {
         cloudiness.setText(weatherManager.getCloudiness() + "%");
         pressure.setText(weatherManager.getPressure() + " hPa");
         humidity.setText(weatherManager.getHumidity() + "%");
-
     }
 
     @Override
