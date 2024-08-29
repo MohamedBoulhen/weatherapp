@@ -13,7 +13,7 @@ Welcome to **WeatherApp**, a sleek and modern JavaFX-based weather application t
 
 Here is a screenshot of the current state of the application:
 
-![Screenshot](/Users/mo/IdeaProjects/JavaFX-Weather-App/src/main/resources/images/screen.png)
+![Screenshot](src/main/resources/images/screen.png)
 
 ## Current Status
 
