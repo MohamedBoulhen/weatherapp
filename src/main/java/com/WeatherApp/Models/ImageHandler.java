@@ -1,4 +1,4 @@
-package com.anuragroy.Models;
+package com.WeatherApp.Models;
 
 public class ImageHandler {
 

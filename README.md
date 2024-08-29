@@ -9,9 +9,20 @@ Welcome to **WeatherApp**, a sleek and modern JavaFX-based weather application t
 - **Dynamic Weather Icons**: Enjoy visually appealing weather icons that change based on current conditions.
 - **Error Handling**: Receive user-friendly error messages if the city is not found or if there is no internet connection.
 
+## Screenshot
+
+Here is a screenshot of the current state of the application:
+
+![Screenshot](/Users/mo/IdeaProjects/JavaFX-Weather-App/src/main/resources/images/screen.png)
+
+## Current Status
+
+This project is in the early stages of development. Features are being added, and the application is undergoing active development. Check back for updates as new features and improvements are implemented.
+
+
 ## Future Features
 
-We're continually working to enhance WeatherApp with exciting new features:
+Im continually working to enhance this Weather App with exciting new features:
 
 - **Dynamic Backgrounds**: Change the app’s background according to current weather conditions, with visual adaptations for sunny, rainy, and snowy weather.
 - **Weather Forecast**: Integrate a 7-day weather forecast to provide users with detailed upcoming weather information.

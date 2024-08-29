@@ -20,6 +20,7 @@ public class Main extends Application {
             primaryStage.setScene(new Scene(root, 1050, 670));
             primaryStage.getScene().getStylesheets().add(getClass().getResource("/styles/style.css").toExternalForm());
             primaryStage.setResizable(false);
+            primaryStage.setResizable(false);
             primaryStage.show();
 
         } catch (Exception e) {

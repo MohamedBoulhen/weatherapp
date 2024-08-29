@@ -1,7 +1,13 @@
-package com.anuragroy.Controllers;
+package com.WeatherApp.Controllers;
 
-import com.anuragroy.Models.ImageHandler;
-import com.anuragroy.Models.WeatherManager;
+import java.awt.Desktop;
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+
+
+import com.WeatherApp.Models.ImageHandler;
+import com.WeatherApp.Models.WeatherManager;
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXTextField;
 import javafx.animation.FadeTransition;
@@ -170,4 +176,20 @@ public class Controller implements Initializable {
         shadow.setColor(Color.GRAY);
         img.setEffect(shadow);
     }
+
+    @FXML
+    private void handleMyPortfolioClick(javafx.event.ActionEvent ae) {
+        String url = "https://mohamedboulhen.github.io/portfolio/";
+        if (Desktop.isDesktopSupported()) {
+            try {
+                Desktop.getDesktop().browse(new URI(url));
+            } catch (IOException | URISyntaxException e) {
+                e.printStackTrace();
+                showToast("Failed to open portfolio.");
+            }
+        } else {
+            showToast("Desktop is not supported.");
+        }
+    }
+
 }

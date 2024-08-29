@@ -25,24 +25,25 @@
                     <font>
                         <Font name="System Bold" size="15.0" />
                     </font></JFXTextField>
-                <JFXButton fx:id="change" layoutX="481.0" layoutY="55.0" onAction="#handleButtonClicks" style="-fx-background-color: #ff6767; -fx-background-radius: 10px;" text="Change" />
-                <JFXButton fx:id="set" layoutX="406.0" layoutY="55.0" onAction="#handleButtonClicks" style="-fx-background-radius: 10px; -fx-background-color: #ff6767;" text="Set" />
-                <JFXButton fx:id="cancel" layoutX="575.0" layoutY="55.0" onAction="#handleButtonClicks" style="-fx-background-radius: 10px; -fx-background-color: #ff6767;" text="Cancel" />
+                <JFXButton fx:id="change" layoutX="481.0" layoutY="55.0" onAction="#handleButtonClicks" style="-fx-background-color: #FFB300; -fx-background-radius: 10px;" text="Change" />
+                <JFXButton fx:id="set" layoutX="406.0" layoutY="55.0" onAction="#handleButtonClicks" style="-fx-background-radius: 10px; -fx-background-color: #FFB300;" text="Set" />
+                <JFXButton fx:id="cancel" layoutX="575.0" layoutY="55.0" onAction="#handleButtonClicks" style="-fx-background-radius: 10px; -fx-background-color: #FFB300;" text="Cancel" />
+                <JFXButton fx:id="myPortfolio" layoutX="920.0" layoutY="45.0" onAction="#handleMyPortfolioClick" style="-fx-background-radius: 10px; -fx-background-color: #FFB300;" text="My Portfolio" />
             </children>
         </Pane>
         <Pane fx:id="pane1" layoutX="5.0" layoutY="7.0" prefHeight="554.0" prefWidth="1041.0">
             <children>
-                <Label fx:id="city" alignment="CENTER" layoutX="254.0" layoutY="14.0" prefHeight="58.0" prefWidth="533.0" text="CITY NAME" textFill="#78ffc4">
+                <Label fx:id="city" alignment="CENTER" layoutX="254.0" layoutY="14.0" prefHeight="58.0" prefWidth="533.0" text="CITY NAME" textFill="#02ff00">
                     <font>
                         <Font name="System Bold" size="40.0" />
                     </font>
                 </Label>
-                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="127.0" prefHeight="40.0" prefWidth="183.0" text="CURRENT WEATHER" textAlignment="CENTER" textFill="#ff6767">
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="162.0" layoutY="127.0" prefHeight="40.0" prefWidth="183.0" text="CURRENT WEATHER" textAlignment="CENTER" textFill="#ffb300">
                     <font>
                         <Font name="System Bold" size="18.0" />
                     </font>
                 </Label>
-                <Label fx:id="temperature" alignment="CENTER" layoutX="192.0" layoutY="448.0" prefHeight="58.0" prefWidth="123.0" text="60" textFill="#78ffc4">
+                <Label fx:id="temperature" alignment="CENTER" layoutX="192.0" layoutY="448.0" prefHeight="58.0" prefWidth="123.0" text="60" textFill="#02ff00">
                     <font>
                         <Font name="System Bold" size="40.0" />
                     </font>
@@ -58,27 +59,27 @@
                         <Font name="System Bold" size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="621.0" layoutY="210.0" prefHeight="31.0" prefWidth="104.0" text="WIND SPEED :" textFill="#ff6767">
+                <Label layoutX="621.0" layoutY="210.0" prefHeight="31.0" prefWidth="104.0" text="WIND SPEED :" textFill="#ffb300">
                     <font>
                         <Font name="System Bold" size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="621.0" layoutY="287.0" prefHeight="31.0" prefWidth="104.0" text="CLOUDINESS :" textFill="#ff6767">
+                <Label layoutX="621.0" layoutY="287.0" prefHeight="31.0" prefWidth="104.0" text="CLOUDINESS :" textFill="#ffb300">
                     <font>
                         <Font name="System Bold" size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="621.0" layoutY="364.0" prefHeight="31.0" prefWidth="104.0" text="PRESSURE:" textFill="#ff6767">
+                <Label layoutX="621.0" layoutY="364.0" prefHeight="31.0" prefWidth="104.0" text="PRESSURE:" textFill="#ffb300">
                     <font>
                         <Font name="System Bold" size="15.0" />
                     </font>
                 </Label>
-                <Label layoutX="621.0" layoutY="446.0" prefHeight="31.0" prefWidth="104.0" text="HUMIDITY:" textFill="#ff6767">
+                <Label layoutX="621.0" layoutY="446.0" prefHeight="31.0" prefWidth="104.0" text="HUMIDITY:" textFill="#ffb300">
                     <font>
                         <Font name="System Bold" size="15.0" />
                     </font>
                 </Label>
-                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="614.0" layoutY="127.0" prefHeight="40.0" prefWidth="256.0" text="ADDITIONAL INFORMATION" textAlignment="CENTER" textFill="#ff6767">
+                <Label alignment="CENTER" contentDisplay="CENTER" layoutX="614.0" layoutY="127.0" prefHeight="40.0" prefWidth="256.0" text="ADDITIONAL INFORMATION" textAlignment="CENTER" textFill="#ffb300">
                     <font>
                         <Font name="System Bold" size="18.0" />
                     </font>
